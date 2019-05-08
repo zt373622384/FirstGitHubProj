@@ -6,7 +6,7 @@ public class Demo8Test {
 		Thread t2 = new Thread(new MyRunnable03(),"线程B");
 		t1.start();
 		t2.start();
-		
+        System.out.println("github");
 	}
 
 }
